@@ -42,17 +42,16 @@
     description = "nixos";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      keepassxc
+      wl-clipboard
+      git
+      librewolf
     ];
   };
 
-  programs.firefox.enable = true;
-
   environment.systemPackages = with pkgs; [
     vim
-    git
     wget
-    keepassxc
-    wl-clipboard
   ];
 
   system.stateVersion = "25.05";
