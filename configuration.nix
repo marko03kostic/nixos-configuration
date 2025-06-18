@@ -46,6 +46,18 @@
       wl-clipboard
       git
       librewolf
+      qbittorrent
+      vlc
+      neovim
+      ripgrep
+      fd
+      fzf
+      cargo
+      rustc
+      gcc
+      zig
+      zls
+      foundry
     ];
   };
 
